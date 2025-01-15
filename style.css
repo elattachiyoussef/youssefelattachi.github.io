@@ -2189,6 +2189,24 @@ select.mobile-device {
     padding: 0;
     width: 100%;
     color: #bcbcbc !important;
+	
+	.maps {
+    width: 100%;
+    height: 400px; /* Ajuste selon tes besoins */
+}
+
+@media (max-width: 768px) {
+    .maps {
+        height: 300px; /* Pour smartphones */
+    }
+}
+
+@media (max-width: 480px) {
+    .maps {
+        height: 200px; /* Pour très petits écrans */
+    }
+}
+
 }
 
 .contact_form {
